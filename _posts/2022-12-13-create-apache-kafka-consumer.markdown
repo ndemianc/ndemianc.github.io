@@ -5,7 +5,7 @@ description:
 date:   2022-12-13 00:31:46.882708 -0500
 author: sdemian
 image:  '/images/30.jpg'
-tags:   [fafka, technology, it]
+tags:   [kafka, technology, it]
 tags_color: '#477690'
 ---
 To create an Apache Kafka consumer, you will need to first install Apache Kafka on your system, if you haven't already done so. You can download Apache Kafka from the official website (https://kafka.apache.org/downloads). Once you have installed Apache Kafka, you can create a consumer by following these steps:
