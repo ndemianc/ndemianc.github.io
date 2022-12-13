@@ -5,7 +5,7 @@ description:
 date: 2019-12-05 15:01:35 +0300
 author: sdemian
 image: '/images/sdemian-small-image.jpg'
-video_embed: https://www.youtube.com/embed/4Z9mUjtFJYY
+video_embed: https://www.youtube.com/watch?v=XQ5trPfGsA4
 tags: [video, aws, sidecar, ecs, deployment]
 tags_color: '#618770'
 ---
