@@ -4,7 +4,7 @@ name: Sergii Demianchuk
 image: '/images/Sergii Demianchuk.jpeg'
 cover: '/images/lviv_background.jpg'
 location: North Carolina
-website: https://sdemian.com
+website: https://www.sdemian.com/sdemian
 twitter: https://twitter.com/SergiiDemian
 facebook: https://www.facebook.com
 ---
