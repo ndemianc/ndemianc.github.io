@@ -5,7 +5,7 @@ description:
 date: 2019-08-14 15:01:35 +0300
 author: sdemian
 image: '/images/sdemian-small-image.jpg'
-video_embed: https://www.youtube.com/watch?v=XQ5trPfGsA4
+video_embed: https://www.youtube.com/embed/XQ5trPfGsA4
 tags: [azure, video, stripe, react]
 tags_color: '#835F46'
 ---
