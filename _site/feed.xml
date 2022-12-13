@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Mria</title>
+        <description>Mria is a multipurpose blog theme for Jekyll</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 13 Dec 2022 00:35:06 -0500</pubDate>
+        <lastBuildDate>Tue, 13 Dec 2022 00:35:06 -0500</lastBuildDate>
+        <generator>Jekyll v4.3.1</generator>
+        
+            <item>
+                <title>Create Apache Kafka Consumer</title>
+                <description>&lt;p&gt;To create an Apache Kafka consumer, you will need to first install Apache Kafka on your system, if you haven’t already done so. You can download Apache Kafka from the official website (https://kafka.apache.org/downloads). Once you have installed Apache Kafka, you can create a consumer by following these steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open a new terminal and navigate to the directory where Apache Kafka is installed.&lt;/li&gt;
+  &lt;li&gt;Run the following command to start the Apache Kafka server:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bin/kafka-server-start.sh config/server.properties
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open another terminal and navigate to the directory where Apache Kafka is installed.&lt;/li&gt;
+  &lt;li&gt;Run the following command to create a new topic called “my-topic”:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic my-topic
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Run the following command to start a consumer that listens to the “my-topic” topic:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic my-topic --from-beginning
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will start a consumer that listens to the “my-topic” topic and prints any messages that are published to that topic to the terminal. You can then publish messages to the “my-topic” topic using a Kafka producer, and the consumer will receive and print those messages.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/apache-kafka.jpg&quot; alt=&quot;Kafka&quot; /&gt;
+&lt;em&gt;Image from &lt;a href=&quot;https://www.oreilly.com/library/view/kafka-the-definitive/9781491936153/ch04.html#T1_overflow_nomessage&quot;&gt;https://www.oreilly.com/&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+                <pubDate>Tue, 13 Dec 2022 00:31:46 -0500</pubDate>
+                <link>http://localhost:4000/blog/create-apache-kafka-consumer</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/create-apache-kafka-consumer</guid>
+                
+                <category>fafka</category>
+                
+                <category>technology</category>
+                
+                <category>it</category>
+                
+                
+            </item>
+        
+    </channel>
+</rss>
