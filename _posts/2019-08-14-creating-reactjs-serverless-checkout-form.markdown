@@ -4,7 +4,7 @@ title: Creating ReactJS serverless checkout form
 description:
 date: 2019-08-14 15:01:35 +0300
 author: sdemian
-image: '/images/sdemian-small-image.jpg'
+image: '/images/2019-08-14-creating-reactjs-serverless-checkout-form.webp'
 video_embed: https://www.youtube.com/embed/XQ5trPfGsA4
 tags: [azure, video, stripe, react]
 tags_color: '#835F46'
