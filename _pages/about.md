@@ -2,10 +2,8 @@
 layout: page
 title: About
 permalink: /about/
-image: '/images/102.jpg'
+image: '/images/sdemian-big-image.jpg'
 ---
-
-In operant conditioning, a reinforcement (by reward) or instead a punishment is given after a given behavior, changing the frequency and/or form of that behavior. Stimulus present when the behavior/consequence occurs come to control these behavior modifications.
 
 > Sing like no one’s listening, love like you’ve never been hurt, dance like nobody’s watching, and live like it’s heaven on earth.
 
@@ -13,10 +11,10 @@ Observational learning is learning that occurs through observing the behavior of
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/103.jpg" loading="lazy">
-    <img src="/images/104.jpg" loading="lazy">
+    <img src="/images/sdemian-photo1.jpg" loading="lazy">
+    <img src="/images/sdemian-photo2.jpg" loading="lazy">
   </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
+  <em>Gallery / <a href="https://sdemian.com/about" target="_blank">About</a></em>
 </div>
 
 Nonformal learning is organized learning outside the formal learning system. For example, learning by coming together with people with similar interests and exchanging viewpoints, in clubs or in (international) youth organizations, workshops.
