@@ -1,7 +1,7 @@
 ---
 username: sdemian
 name: Sergii Demianchuk
-image: '/images/Sergii Demianchuk.jpeg'
+image: '/images/Sergii-Demianchuk.jpeg'
 cover: '/images/lviv_background.jpg'
 location: North Carolina
 website: https://www.sdemian.com/sdemian
