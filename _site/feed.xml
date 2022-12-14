@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Mria</title>
-        <description>Mria is a multipurpose blog theme for Jekyll</description>
-        <link>http://localhost:4000/</link>
-        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 13 Dec 2022 16:02:46 -0500</pubDate>
-        <lastBuildDate>Tue, 13 Dec 2022 16:02:46 -0500</lastBuildDate>
+        <title>sdemian.com</title>
+        <description>sdemian.com empowering business solutions</description>
+        <link>https://sdemian.com/</link>
+        <atom:link href="https://sdemian.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 13 Dec 2022 20:44:15 -0500</pubDate>
+        <lastBuildDate>Tue, 13 Dec 2022 20:44:15 -0500</lastBuildDate>
         <generator>Jekyll v4.3.1</generator>
         
             <item>
@@ -42,14 +42,130 @@
 &lt;em&gt;Image from &lt;a href=&quot;https://www.oreilly.com/library/view/kafka-the-definitive/9781491936153/ch04.html#T1_overflow_nomessage&quot;&gt;https://www.oreilly.com/&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Tue, 13 Dec 2022 00:31:46 -0500</pubDate>
-                <link>http://localhost:4000/blog/create-apache-kafka-consumer</link>
-                <guid isPermaLink="true">http://localhost:4000/blog/create-apache-kafka-consumer</guid>
+                <link>https://sdemian.com/blog/create-apache-kafka-consumer</link>
+                <guid isPermaLink="true">https://sdemian.com/blog/create-apache-kafka-consumer</guid>
                 
-                <category>fafka</category>
+                <category>kafka</category>
                 
                 <category>technology</category>
                 
-                <category>it</category>
+                <category>java</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Deploying a Rails App with an Nginx Sidecar Container</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;So, You have been working hard on your idea implementation, and now it a time when You first think about deployment of your brand new Ruby on Rails application.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You want to show the world your shinny new website. But there is a problem how to deploy your application, in fault tolerant, resilient and reliable way.&lt;/p&gt;
+
+&lt;p&gt;There are already solutions to deployment problem: Heroku, Capistrano, Debian package, etc. You name it,  and Amazon Elastic Container Service.&lt;/p&gt;
+
+&lt;p&gt;Amazon Elastic Container Service (Amazon ECS) is a highly scalable, high-performance container orchestration service that supports Docker containers and allows you to easily run and scale containerized applications on AWS. Amazon ECS eliminates the need for you to install and operate your own container orchestration software, manage and scale a cluster of virtual machines, or schedule containers on those virtual machines. Instead, Amazon ECS helps you run microservice applications with native integration to AWS services and enables continuous integration and continuous deployment (CICD) pipelines.&lt;/p&gt;
+
+&lt;p&gt;Today we will take a look at Sidecar pattern and how to use Sidecar pattern to deploy application on the AWS cluster using Amazon Elastic Container Service and Amazon Elastic Container Registry.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 05 Dec 2019 07:01:35 -0500</pubDate>
+                <link>https://sdemian.com/blog/deploying-a-rails-app-with-an-nginx-sidecar-container</link>
+                <guid isPermaLink="true">https://sdemian.com/blog/deploying-a-rails-app-with-an-nginx-sidecar-container</guid>
+                
+                <category>video</category>
+                
+                <category>aws</category>
+                
+                <category>sidecar</category>
+                
+                <category>ecs</category>
+                
+                <category>deployment</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Creating ReactJS serverless checkout form</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;There comes a time in any apps life, when it will have to be monetize.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are a number of ways to become profitable, but accepting cash is a straightforward way to make this more direct.&lt;/p&gt;
+
+&lt;p&gt;There are always multiple solution to the problem, and today we are going to look at one of the possible solution.&lt;/p&gt;
+
+&lt;p&gt;Today we will go over how to setup a serverless function using Microsoft Azure cloud service, make it talk to the Stripe API, and connect it to a checkout form that is setup as a ReactJS application.&lt;/p&gt;
+</description>
+                <pubDate>Wed, 14 Aug 2019 08:01:35 -0400</pubDate>
+                <link>https://sdemian.com/blog/creating-reactjs-serverless-checkout-form</link>
+                <guid isPermaLink="true">https://sdemian.com/blog/creating-reactjs-serverless-checkout-form</guid>
+                
+                <category>azure</category>
+                
+                <category>video</category>
+                
+                <category>stripe</category>
+                
+                <category>react</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Deploying Elixir/Phoenix application on Heroku by Sergii Demianchuk</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;We have discussed main questions raised on Elixir Users’ Survey 2016 created by Josh Adams.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Full demo of Elixir/Phoenix application deployment on Heroku: Cloud Application Platform (https://www.heroku.com/) was shown.
+Main goal is to share experience got when deploying application with Elixir+Phoenix on enterprise cloud application platform, difficulties encountered and how we can deal with them. Also we discussed future goals and ideas for future presentations.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 14 Nov 2017 07:01:35 -0500</pubDate>
+                <link>https://sdemian.com/blog/deploying-elixir-phoenix-application-on-heroku-by-sergii-demianchuk</link>
+                <guid isPermaLink="true">https://sdemian.com/blog/deploying-elixir-phoenix-application-on-heroku-by-sergii-demianchuk</guid>
+                
+                <category>elixir</category>
+                
+                <category>phoenix</category>
+                
+                <category>deployment</category>
+                
+                <category>heroku</category>
+                
+                <category>video</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Passion |&gt; Elixir |&gt; Phoenix</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;We have discussed architecture concepts behind Erlang, Elixir and Phoenix web framework.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;During presentation with live codding these items were shown:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;History of Erlang and a need for the Elixir&lt;/li&gt;
+  &lt;li&gt;Basic types in Elixir&lt;/li&gt;
+  &lt;li&gt;Use of Phoenix application for JSON API generation&lt;/li&gt;
+  &lt;li&gt;Use of mailgun mailer implementation for the Elixir/Phoenix&lt;/li&gt;
+  &lt;li&gt;Performance of the Elixir/Phoenix&lt;/li&gt;
+  &lt;li&gt;Use of exq package to handle background jobs&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <pubDate>Mon, 17 Jul 2017 11:05:55 -0400</pubDate>
+                <link>https://sdemian.com/blog/elixir-and-phoenix-by-sergii-demianchuk</link>
+                <guid isPermaLink="true">https://sdemian.com/blog/elixir-and-phoenix-by-sergii-demianchuk</guid>
+                
+                <category>video</category>
+                
+                <category>elixir</category>
+                
+                <category>phoenix</category>
+                
+                <category>erlang</category>
                 
                 
             </item>
