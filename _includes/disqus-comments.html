@@ -11,7 +11,7 @@
   var disqus_loaded = false;
   var disqus_shortname = '{{ site.data.settings.disqus-identifier }}';
   var disqus_container = document.getElementById("disqus_thread");
-  function disqus() {
+  (function disqus() {
     if (!disqus_loaded) {
       disqus_loaded = true;
       var e = document.createElement("script");
@@ -26,7 +26,7 @@
       // Show disqus comments
       disqus_container.classList.add("is-open");
     }
-  }
+  })();
 </script>
 
 <noscript>Please enable JavaScript to view the
