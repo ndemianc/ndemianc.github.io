@@ -10,25 +10,25 @@ tags_color: '#477690'
 ---
 To create an Apache Kafka consumer, you will need to first install Apache Kafka on your system, if you haven't already done so. You can download Apache Kafka from the official website (https://kafka.apache.org/downloads). Once you have installed Apache Kafka, you can create a consumer by following these steps:
 
-1. Open a new terminal and navigate to the directory where Apache Kafka is installed.
-2. Run the following command to start the Apache Kafka server:
+- Open a new terminal and navigate to the directory where Apache Kafka is installed.
+- Run the following command to start the Apache Kafka server:
 
-```
-bin/kafka-server-start.sh config/server.properties
-```
+{% highlight sh %}
+bin/kafka-server-start config/server.properties
+{% endhighlight %}
 
-3. Open another terminal and navigate to the directory where Apache Kafka is installed.
-4. Run the following command to create a new topic called "my-topic":
+- Open another terminal and navigate to the directory where Apache Kafka is installed.
+- Run the following command to create a new topic called "my-topic":
 
-```
-bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic my-topic
-```
+{% highlight sh %}
+bin/kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic my-topic
+{% endhighlight %}
 
-5. Run the following command to start a consumer that listens to the "my-topic" topic:
+- Run the following command to start a consumer that listens to the "my-topic" topic:
 
-```
-bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic my-topic --from-beginning
-```
+{% highlight sh %}
+bin/kafka-console-consumer --bootstrap-server localhost:9092 --topic my-topic --from-beginning
+{% endhighlight %}
 
 This will start a consumer that listens to the "my-topic" topic and prints any messages that are published to that topic to the terminal. You can then publish messages to the "my-topic" topic using a Kafka producer, and the consumer will receive and print those messages.
 
