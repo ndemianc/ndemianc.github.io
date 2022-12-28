@@ -131,7 +131,7 @@ Let's write the final code at the end of our <span class="code">server.js</span>
 const server = new ApolloServer({ typeDefs, resolvers });
 
 server.listen({ port: 3000 }).then(({ url }) => {
-  console.log(`🏆 Server is listening at ${url}`);
+  console.log(`💪 Server is listening at ${url}`);
 });
 ```
 
