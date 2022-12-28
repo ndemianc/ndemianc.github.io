@@ -7,6 +7,7 @@ url: "https://sdemian.com" # the base hostname & protocol for your site, e.g. ht
 #-------------------------------
 # Build Settings
 markdown: kramdown
+highlighter: rouge
 permalink: /:title
 plugins:
   - jekyll-paginate
