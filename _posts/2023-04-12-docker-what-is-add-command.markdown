@@ -59,5 +59,3 @@ RUN dpkg -i code/wkhtmltopdf.deb && rm -rf code/wkhtmltopdf.deb
 The same syntax is followed for tarballs and URLs.
 
 Congratulations 🏆 on learning about <span class="code">Docker ADD command!</span>
-
-<span class="code">Thank You!</span>
