@@ -11,7 +11,7 @@ featured: true
 ---
 ## How to create new field in existing jsonb column using Rails migration and Active Record
 
-Here is an example of how to add a new field called "status_number" with a value of "new_value" to a JSONB column called "data" in a table called "mytable":
+Here is an example of how to add a new field called "status_number" with a value of "new_value" to a JSONB column called "data" in a table called "services":
 
 ```sql
 UPDATE services
@@ -19,14 +19,18 @@ SET data = jsonb_set(data, '{status_number}', '"new value"')
 WHERE id = 1;
 ```
 
-> To create a new field in an existing JSONB column in PostgreSQL, you can use the jsonb_set function. The jsonb_set function allows you to modify a JSONB object by specifying a path to the field you want to modify and providing a new value.
+> To create a new field in an existing JSONB column in <span class="code">PostgreSQL</span> use the <span class="code">jsonb_set</span> function. The jsonb_set function allows you to modify a JSONB object by specifying a path to the field you want to modify with new value
 
-In this example, the jsonb_set function takes three arguments: the first argument is the JSONB object to modify (in this case, the "data" column), the second argument is the path to the new field (in this case, {status_number}), and the third argument is the new value for the field (in this case, "new value").
+In this example, the <span class="code">jsonb_set</span> function takes three arguments:
+
+- **JSONB object to modify**
+- **path to the new field**
+- **new value**
 
 
 ## How to create new field in existing jsonb column with the value from another jsonb field for all the records in the table
 
-Here is an example of how to add a new field called "status_number" to a JSONB column called "data" in a table called "services", where the value for "status_number" is taken from an existing field called "account_number":
+Add new field **status_number** to a JSONB column called **data** in a table called **services**, where the value for **status_number** is taken from an existing field called **account_number**
 
 ```sql
 UPDATE services
