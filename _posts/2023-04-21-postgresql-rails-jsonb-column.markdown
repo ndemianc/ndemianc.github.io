@@ -11,7 +11,7 @@ featured: true
 ---
 ## How to create new field in existing jsonb column using Rails migration and Active Record
 
-Here is an example of how to add a new field called "status_number" with a value of "new_value" to a JSONB column called "data" in a table called "services":
+Here is an example of how to add a new field called **status_number** with a value of **new_value** to a JSONB column called **data** in a table called **services**
 
 ```sql
 UPDATE services
@@ -47,11 +47,11 @@ SET data = jsonb_set(data, '{status_number}', data->'account_number')
 
 ## How to remove field in existing jsonb column for all the records in the table
 
-To remove a field from an existing JSONB column for all the records in a table, you can use JSONB Operators from [Postgresql Documentation](https://www.postgresql.org/docs/9.5/functions-json.html)
+To remove a field from an existing JSONB column for all the records in a table use <span class="code">JSONB Operators</span> from [Postgresql Documentation](https://www.postgresql.org/docs/9.5/functions-json.html)
 
 ![Postgresql jsonb Operators]({{site.baseurl}}/images/2023-04-21-postgresql-rails-jsonb-column-operators.png)
 
-Here is an example of how to remove a field called "field_to_remove" from a JSONB column called "data" in a table called "mytable":
+Remove a field called **status_number** from a JSONB column called **data** in a table called **services**
 
 ```sql
 UPDATE services
@@ -59,7 +59,15 @@ SET data = data - 'status_number'
 WHERE id = 1;
 ```
 
-## How to write Rails DB migration, which use previos examples
+## Use Rails to do database manipulations with JSONB columns
+
+Create a Rails DB migration:
+
+```bash
+bin/rails g migration update_services_data_account_number
+```
+
+Write **up** and **down** methods for Rails database migration:
 
 ```bash
 class UpdateServicesDataAccountNumber < ActiveRecord::Migration[6.1]
@@ -83,4 +91,20 @@ class UpdateServicesDataAccountNumber < ActiveRecord::Migration[6.1]
 end
 ```
 
-Congratulations 🏆 on learning about <span class="code">Postgresql jsonb column</span>
+Run Rails DB migration for `development` environment
+
+```bash
+bin/rails db:migrate
+```
+
+Run Rails DB migration for `test` environment
+
+```bash
+RAILS_ENV=test bin/rails db:migrate
+```
+
+Now new **status_number** field in JSONB column **data** is present with value from **account_number**
+
+This is all for today.
+
+Congratulations 🏆 on learning about <span class="code">Postgresql jsonb column</span> and use of Rails migrations.
