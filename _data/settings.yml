@@ -35,7 +35,7 @@ menu__settings:
 hero:
   enable: true
   hero__title: Thoughts, stories and ideas.
-  hero__description: Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
+  hero__description: Don't limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
   hero__image: # You can add hero image. For example '/images/06.jpg'
 
 
@@ -43,7 +43,7 @@ hero:
 # Author Global Settings
 author:
   author__name: Sergii Demianchuk
-  author__bio: I’m an Applications Architect with 13+ years of enterprise software development and systems design experience.
+  author__bio: Sergii Demianchuk is a Senior Software Engineering Technical Leader in the S&TO organization at Cisco, where he drives innovation in application security and vulnerability management. With 16 years of specialized experience in AppSec, Sergii has made significant contributions to SBOM security analysis and vulnerability management frameworks. He actively shapes industry standards as a member of both the OASIS OpenEoX Technical Committee and OASIS CSAF Technical Committee. His active participation in the CVE community reflects his commitment to advancing cybersecurity intelligence and standardization across the industry.
   author__avatar: /images/01-1.jpg
 
 
@@ -67,7 +67,7 @@ videos__settings:
 # Tag Section Settings
 tag__settings:
   enable: true
-  tag: travel # To display the tag section, specify your favorite tag.
+  tag: ruby # To display the tag section, specify your favorite tag.
 
 
 #-------------------------------
@@ -75,7 +75,7 @@ tag__settings:
 author__section:
   enable: true
   author__section__title: Hello, my name is Sergii Demianchuk
-  author__section__description: I’m a Applications Architect.
+  author__section__description: Sergii Demianchuk is a Senior Software Engineering Technical Leader in the S&TO organization at Cisco, where he drives innovation in application security and vulnerability management. With 16 years of specialized experience in AppSec, Sergii has made significant contributions to SBOM security analysis and vulnerability management frameworks. He actively shapes industry standards as a member of both the OASIS OpenEoX Technical Committee and OASIS CSAF Technical Committee. His active participation in the CVE community reflects his commitment to advancing cybersecurity intelligence and standardization across the industry.
   aurhor__section__button__text: More About Me
   aurhor__section__button__link: /about
   author__section__big__image: /images/sdemian-big-image.jpg
@@ -85,10 +85,10 @@ author__section:
 #-------------------------------
 # Newsletter Settings
 mailchimp__settings:
-  enable: false
+  enable: true
   mailchimp__title: Get interesting news
   mailchimp__description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
-  mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+  mailchimp__identifier: sdemian.us15.list-manage.com/subscribe/post?u=eda65d04c2de1eabe1e1454fd&amp;id=f60d2b5c00&amp;f_id=00c7c2e1f0 # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
   mailchimp__input__text: Your email address
   mailchimp__button__text: Subscribe
   mailchimp__background__image: /images/subscribe-bg.jpg
@@ -96,16 +96,16 @@ mailchimp__settings:
 
 #-------------------------------
 # Footer Settings
-footer__description: Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
+footer__description: Don't limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
 
 
 # Social Links
 social:
-- {icon: "twitter", link: "https://twitter.com"}
-- {icon: "facebook", link: "https://facebook.com"}
-- {icon: "codepen", link: "https://codepen.io"}
-- {icon: "pinterest", link: "https://pinterest.com"}
-- {icon: "vimeo", link: "https://vimeo.com"}
+- {icon: "fa-brands fa-x-twitter", link: "https://twitter.com"}
+- {icon: "fa-brands fa-facebook", link: "https://facebook.com"}
+- {icon: "fa-brands fa-codepen", link: "https://codepen.io"}
+- {icon: "fa-brands fa-pinterest", link: "https://pinterest.com"}
+- {icon: "fa-brands fa-vimeo-v", link: "https://vimeo.com"}
 
 # Example of adding a new link to the footer - {icon: "instagram", link: "https://instagram.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -118,8 +118,8 @@ footer__menu__settings:
       url: '/'
     - title: 'About'
       url: '/about/'
-    # - title: 'Contact'
-    #   url: '/contact/'
+    - title: 'Contact'
+      url: '/contact/'
     # - title: 'Elements'
     #   url: '/elements/'
 
@@ -127,7 +127,7 @@ footer__menu__settings:
 #-------------------------------
 # Contact Settings
 contact:
-  email: sergeydemjanchyk@gmail.com # Add your form_id
+  email: xqadzekg # Add your form_id
   description: Contact me # Add a description of your form
 
 # NOTE

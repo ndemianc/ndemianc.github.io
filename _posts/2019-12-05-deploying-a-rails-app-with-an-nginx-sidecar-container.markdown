@@ -6,7 +6,7 @@ date: 2019-12-05 15:01:35 +0300
 author: sdemian
 image: '/images/2019-12-05-deploying-a-rails-app-with-an-nginx-sidecar-container.webp'
 video_embed: https://www.youtube.com/embed/xztQ1ZbgnCA
-tags: [video, aws, sidecar, ecs, deployment]
+tags: [video, aws, sidecar, ecs, deployment ruby ruby-on-rails]
 tags_color: '#618770'
 ---
 

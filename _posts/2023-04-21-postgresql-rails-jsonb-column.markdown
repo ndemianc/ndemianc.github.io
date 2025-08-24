@@ -5,7 +5,7 @@ description:
 date:   2023-04-21 00:31:46.882708 -0500
 author: sdemian
 image:  '/images/2023-04-21-postgresql-rails-jsonb-column.png'
-tags:   [rails, postgresql, jsonb, database]
+tags:   [ruby-on-rails, postgresql, jsonb, database]
 tags_color: '#477690'
 featured: true
 ---
