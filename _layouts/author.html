@@ -25,22 +25,28 @@ layout: default
 
       <div class="author__info">
       {% if page.location %}
-        <span class="author__social__item"><i class="ion ion-md-pin"></i> {{ page.location }}</span>
-      {% endif %}
-      {% if page.linkedin %}
-      <a class="author__social__item" href="{{ page.linkedin }}" aria-label="LinkedIn link"><i class="ion ion-logo-linkedin"></i> LinkedIn</a>
-      {% endif %}
-      {% if page.github %}
-      <a class="author__social__item" href="{{ page.github }}" aria-label="GitHub link"><i class="ion ion-logo-github"></i> GitHub</a>
+        <span class="author__social__item"><i class="fa-solid fa-location-dot"></i> {{ page.location }}</span>
       {% endif %}
       {% if page.website %}
-      <a class="author__social__item" href="{{ page.website }}" aria-label="Website link"><i class="ion ion-ios-link"></i> Website</a>
+        <a class="author__social__item" href="{{ page.website }}" aria-label="Website link"><i class="fa-solid fa-link"></i> Website</a>
       {% endif %}
       {% if page.twitter %}
-        <a class="author__social__item" href="{{ page.twitter }}" aria-label="Twitter link"><i class="ion ion-logo-twitter"></i> Twitter</a>
+        <a class="author__social__item" href="{{ page.twitter }}" aria-label="Twitter link"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
       {% endif %}
       {% if page.facebook %}
-        <a class="author__social__item" href="{{ page.facebook }}" aria-label="Facebook link"><i class="ion ion-logo-facebook"></i> Facebook</a>
+        <a class="author__social__item" href="{{ page.facebook }}" aria-label="Facebook link"><i class="fa-brands fa-facebook"></i> Facebook</a>
+      {% endif %}
+      {% if page.linkedin %}
+        <a class="author__social__item" href="{{ page.linkedin }}" aria-label="LinkedIn link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      {% endif %}
+      {% if page.instagram %}
+        <a class="author__social__item" href="{{ page.instagram }}" aria-label="Instagram link"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      {% endif %}
+      {% if page.github %}
+        <a class="author__social__item" href="{{ page.github }}" aria-label="GitHub link"><i class="fa-brands fa-github"></i> GitHub</a>
+      {% endif %}
+      {% if page.email %}
+        <a class="author__social__item" href="mailto:{{ page.email }}" aria-label="Email link"><i class="fa-solid fa-envelope"></i> Email</a>
       {% endif %}
       </div>
 
